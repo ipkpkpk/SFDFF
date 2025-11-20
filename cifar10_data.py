@@ -5,7 +5,7 @@ import os, shutil
 from pathlib import Path
 import random
 
-random.seed(10086)
+random.seed(960224)
 if __name__ == '__main__':
     for class_idx in range(10):
         dirr = Path("CIFAR10") / str(class_idx)
